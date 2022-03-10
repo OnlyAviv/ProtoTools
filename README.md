@@ -6,11 +6,11 @@ ProtoTools allows for more prototype tools to make coding easier.
 ## Installing
 First, install using NPM
 ```sh
-npm i prototools
+npm i @redyetidev/prototools
 ```
 Next, require it into your script
 ```js
-require("prototools") 
+require("@redyetidev/prototools") 
 // No need to assign prototools to a variable
 ```
 

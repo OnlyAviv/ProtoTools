@@ -1,5 +1,5 @@
 {
-  "name": "prototools",
+  "name": "@redyetidev/prototools",
   "version": "0.0.1",
   "description": "Prototools allows for more prototype functions",
   "main": "prototools.js",

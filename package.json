@@ -1,6 +1,6 @@
 {
   "name": "@redyetidev/prototools",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Prototools allows for more prototype functions",
   "main": "prototools.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "coming.soon"
+    "url": "https://github.com/RedYetiDev/ProtoTools"
   },
   "keywords": [
     "Prototype",

@@ -1,0 +1,20 @@
+{
+  "name": "prototools",
+  "version": "0.0.1",
+  "description": "Prototools allows for more prototype functions",
+  "main": "prototools.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "coming.soon"
+  },
+  "keywords": [
+    "Prototype",
+    "tools",
+    "proto"
+  ],
+  "author": "RdYetiDev",
+  "license": "MIT"
+}

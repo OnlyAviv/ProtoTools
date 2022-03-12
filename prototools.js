@@ -25,6 +25,12 @@ String.prototype.randomCapitalization = function randomCapitalization(chance = 5
 Number.prototype.getLength = function getLength() {
     return this.toString().length
 }
+Number.prototype.isEven = function isEven(n) {
+    return this % 2 == 0;
+}
+Number.prototype.isOdd = function isOdd() {
+    return this % 2 == 1;
+}
 // Math Tools
 Math.randomTo = function randomTo(v) {
     return Math.round(Math.random() * v);

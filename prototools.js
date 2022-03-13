@@ -25,7 +25,7 @@ String.prototype.randomCapitalization = function randomCapitalization(chance = 5
 Number.prototype.getLength = function getLength() {
     return this.toString().length
 }
-Number.prototype.isEven = function isEven(n) {
+Number.prototype.isEven = function isEven() {
     return this % 2 == 0;
 }
 Number.prototype.isOdd = function isOdd() {

@@ -25,10 +25,18 @@ String.prototype.randomCapitalization = function randomCapitalization(chance = 5
 Number.prototype.getLength = function getLength() {
     return this.toString().length
 }
+Number.getParity = function() {
+    return Math.Parity(this);
+}
 // Math Tools
 Math.randomTo = function randomTo(v) {
     return Math.round(Math.random() * v);
 }
+
+Math.parity = function parity(n) {
+    return n % 2 == 0 ? "even" : "odd"
+}
+
 // Array Tools
 /* https://stackoverflow.com/questions/6274339/how-can-i-shuffle-an-array */
 Array.prototype.shuffle = function shuffle() {
@@ -99,9 +107,10 @@ Object.equals = function equals(obj1,obj2) {
     })
     return match;
 }
+/* Added Functions */
 
 // Loop
-function Loop(cb, x) {
+global.Loop = function Loop(cb, x) {
     for (let i = 0; i < x; i++) {
         cb(i+1);
     }

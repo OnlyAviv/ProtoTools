@@ -44,7 +44,7 @@ require("@redyetidev/prototools")
     ```
 * `randomCapitalization`
 
-    The `randomCapitalization` takes a string, and a random chance parameter and returns a capitalized version of the string based on that parameter
+    The `randomCapitalization` takes a string, and a random chance parameter (from 0-100) and returns a capitalized version of the string based on that parameter
 
     ```js
     var string = "hello there"
@@ -65,6 +65,14 @@ require("@redyetidev/prototools")
     ```js
     var number = 100
     number.getLength() // returns 3
+    ```
+
+* `getParity`
+    The `getParity` functions return whether the number is `"even"` or `"odd"`. It is the same as running `Math.parity(number)` (which is also included in this package)
+
+    ```js
+    var number = 5
+    number.getParity(); // Returns "odd"
     ```
 ### Array
 * `shuffle`
@@ -139,8 +147,17 @@ require("@redyetidev/prototools")
     The `randomTo` function gets a random number up to a value.
 
     ```js
-    Math.randomTo(100) // Random number 0-100
+    Math.randomTo(100) // returns Random number 0-100
     ```
+
+* `parity`
+
+    The `parity` function returns the parity of the number provided
+
+    ```js
+    Math.parity(6) // returns "even"
+    ```
+
 ### Object
 * `equals`
 
